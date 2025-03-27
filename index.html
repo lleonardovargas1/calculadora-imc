@@ -7,20 +7,27 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+ 
 <div class="fundo">
-
+ 
 <h1>Calcule  meu imc</h1>
 <h2>altura</h2>
-
-<input id="altura" type="text" placeholder="insira  sua altura, em metros(s)">
-
+ 
+<input id="altura" type="text" placeholder="insira  sua altura, em metros">
+ 
 <h3>Peso</h3>
-<input id="peso"  type="text" placeholder="digite seu peso, em quilograma(s)">
-
+<input id="peso"  type="text" placeholder="digite seu peso, em quilograma">
 <button id="calcular">calcular meu imc</button>
+<h1 id="resultadoIMC"></h1>
+<div id="bx" class="bx hide"><h1>Abaixo do Peso <br>IMC < 18,5</h1></div>
+<div id="pn" class="pn hide"><h1>Peso Normal <br>IMC ≥ 18,5 e < 24,9 kg/m²</h1></div>
+<div id="ep" class="ep hide"><h1>Excesso de Peso<br>IMC ≥ 25 e < 29,9 kg/m² </h1></div>
+<div id="o" class="o hide"><h1>Obesidade<br>IMC ≥ 30 kg/m²</h1></div>
+<div id="o1" class="o1 hide"><h1>Obesidade Grau I<br>IMC ≥ 30 e 34,9 kg/m²</h1></div>
+<div id="o2" class="o2 hide"><h1>Obesidade Grau II<br>IMC ≥ 39,9 kg/m²</h1></div>
+<div id="om" class="om hide"><h1>Obesidade Mórbida<br>IMC > kg/m²</h1></div>
 </div>
-
+ 
 <div class="container">
     <h4>Classificação do IMC</h4>
     <table>
@@ -62,7 +69,7 @@
         </tbody>
     </table>
 </div>
-
+ 
     <script src="script.js"></script>
 </body>
 </html>
