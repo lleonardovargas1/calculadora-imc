@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="fundo">
+
+<h1>Calcule  meu imc</h1>
+<h2>altura</h2>
+
+<input id="altura" type="text" placeholder="insira  sua altura, em metros(s)">
+
+<h3>Peso</h3>
+<input id="peso"  type="text" placeholder="digite seu peso, em quilograma(s)">
+
+<button id="calcular">calcular meu imc</button>
+</div>
+
+<div class="container">
+    <h4>Classificação do IMC</h4>
+    <table>
+        <thead>
+            <tr>
+                <th>IMC</th>
+                <th>Classificação</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="magreza">
+                <td>IMC < 18,5 kg/m2</td>
+                <td>Baixo Peso</td>
+            </tr>
+            <tr class="normal">
+                <td> IMC > 18,5 e < 24,9 kg/m2</td>
+                <td> Peso Normal</td>
+            </tr>
+            <tr class="sobrepeso">
+                <td>IMC > 25 e < 29,9 kg/m2</td>
+                <td>Excesso de Peso</td>
+            </tr>
+            <tr class="obesidade">
+                <td>30kg/m2</td>
+                <td>Obesidade </td>
+            </tr>
+            <tr class="obesidade1">
+                <td>30 e 34,9 kg/m2</td>
+                <td>Obesidade Grau Classe I</td>
+            </tr>
+            <tr class="obesidade2">
+                <td>IMC > 35 e < 39,9 kg/m2</td>
+                <td>Obesidade Classe II</td>
+            </tr>
+            <tr class="obesidadem">
+                <td> IMC > 40 kg/m2</td>
+                <td>Obesidade Mórbida</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>

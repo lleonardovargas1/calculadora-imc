@@ -1,0 +1,98 @@
+.fundo{
+    margin-left: 300px;
+    margin-top: 200px;
+background-color: aqua;
+height: 450px;
+width: 400px;   
+}
+h1{
+color: black;
+font-size: 30px; 
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+margin-left: 30px; 
+position: relative;
+top: 25px;
+}
+input{
+    position: relative;
+top: 20px;
+    margin-left: 28px;
+    width: 85%;
+    height: 43px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    font-size: 18px;
+}
+h2{
+    position: relative;
+top: 20px;
+font-weight: 400;
+font-size: 27px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+margin-left: 30px;
+margin-bottom: 15px;
+}
+h3{
+    position: relative;
+top: 20px;
+    margin-top: 10px;
+    font-weight: 400;
+ font-size: 27px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 32px;
+    margin-bottom: 20px;
+    }  
+
+    #calcular{
+        position: relative;
+top: 20px;
+    color: white;
+    background-color: rgb(219, 150, 0); 
+    height:60px; 
+    width: 347px;  
+    border-radius: 2px;
+    margin-left: 30px;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.container {
+    max-width: 600px;
+    
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: 900px;
+    margin-top: -500px;
+}
+
+h4 {
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 15px;
+    border: 1px solid #ddd;
+    text-align: center;
+    font-size: 18px;
+}
+
+th {
+    background: #222;
+    color: white;
+}
+
+.magreza { background-color: #ADD8E6; } 
+.normal { background-color: #90EE90; } 
+.sobrepeso { background-color: #FFD700; } 
+.obesidade { background-color: #FFA500; } 
+.obesidade1 { background-color: #FF6347; } 
+.obesidade2 { background-color: #DC143C; }
+.obesidadem { background-color: #690217; }
