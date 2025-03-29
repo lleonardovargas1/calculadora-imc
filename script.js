@@ -1,16 +1,16 @@
 let imc = 0;
  
-const btnCalcula = document.getElementById('calcular');
+const btnCalcula = document.getElementById('calcular'); // crei uma variavel para o botão que ele vai calcular o imc
 btnCalcula.addEventListener('click', () => {
  
-    let altura = parseFloat(document.getElementById('altura').value);
+    let altura = parseFloat(document.getElementById('altura').value); // peguei o valor do input altura e transformei em float com o parseFloat
     let peso = parseFloat(document.getElementById('peso').value);
  
-    imc = (peso / (altura * altura));
+    imc = (peso / (altura * altura)); // fiz a conta do imc
  
-    document.getElementById('resultadoIMC').innerHTML = imc;
+    document.getElementById('resultadoIMC').innerHTML = imc; // coloquei o resultado do imc no html
      
-    // Resetar todas as classes dos elementos
+    // Resetei todas as classes dos elementos
     const ids = ['bx', 'pn', 'ep', 'o', 'o1', 'o2', 'om'];
     ids.forEach(id => {
         const element = document.getElementById(id);
@@ -31,6 +31,6 @@ btnCalcula.addEventListener('click', () => {
     }else if( imc >= 35 && imc < 39.9){
         document.getElementById('o2').classList.add('show');
     }else if( imc >= 40){
-        document.getElementById('om').classList.add('show');
+        document.getElementById('om').classList.add('show'); //
     }
 });
